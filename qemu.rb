@@ -6,7 +6,7 @@ class Qemu < Formula
   license "GPL-2.0-only"
   head "https://git.qemu.org/git/qemu.git", branch: "stable-7.2"
 
-  bottle do
+  bottle do 
     sha256 arm64_ventura:  "fa987f9dc770812c58333c910cb0f5c4e730d513a1568cc4d6a215dfa3ac82d1"
     sha256 arm64_monterey: "62bea721ff6fa3ee15ed53ee8215fea42b2cd07e8fb39b77ce8e39f30287576f"
     sha256 arm64_big_sur:  "9b2c3aa359719358370901d00a1b9323459ec9af3add371d212fd98071418e6b"
